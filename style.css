@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Phudu:wght@400;600;900&family=Tilt+Prism&family=Tilt+Warp&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 2px 2px 20px rgba(15, 9, 9, 0.719); /* agrega sombra al borde inferior */
+    z-index: 2;
+}
+.contain-header{
+    /* border: 2px solid white; */
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    /* box-shadow: 0 0 30px rgb(8, 6, 6); */
+    padding-top: 10px;
+    
+}
+.menu-bar{
+    display: none;
+}
+.contain1_section{
+    background-image: url('WhatsApp\ Image\ 2023-03-02\ at\ 9.04.05\ AM.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: beige;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: beige;
+}
+.contain-div{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.contain-section1{
+    padding-top: 100px;
+}
+.contain2_section{
+    height: 100vh;
+    background: rgb(56,102,122);
+    background: linear-gradient(90deg, #38667a 69%, rgba(212,240,246,1) 100%);
+}
+.contain-div-nav ul{
+    display: flex;
+}
+.contain-div-nav ul li a{
+    margin: 20px;
+    font-size: 30px;
+    color: antiquewhite;
+    text-shadow: 1px 1px 5px black;
+}  
+.contain-section1{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   /*  border: 3px solid black; */
+    width: 80%;
+    height: 95%;
+}
+.contain-section1 h1{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 80px;
+    text-shadow: 3px 5px 25px black;
+    color: aliceblue;
+}
+.titulito{
+    color: black;
+}
+.contain-section1 p{
+    margin-top: 100px;
+    font-family: 'Phudu', cursive;
+    font-size: 40px;
+    color: antiquewhite;
+    text-shadow: 3px 3px 20px black;
+    font-weight: 900;
+}
+.contain-section1 a{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    font-size: 35px;
+    font-weight: 800;
+    color: #00f73e;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid ;
+}
+.titulito{
+    color: black;
+}
+/* SECCION 2 SOBRE MI */
+.contain2_section{
+    padding-top: 100px;
+}
+.sobremi{
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+}
+.contain2{
+    margin: auto;
+    display: flex;
+    width: 80%;
+    height: 90%;
+    /* border: solid 2px black; */
+}
+.child-left{
+    /* border: solid 2px black; */
+    width: 50%;
+    height: 100%;
+}   
+.child-rigth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 2px black; */
+    width: 50%;
+    height: 100%;
+}
+.child-rigth img{
+    border-radius: 86px;
+}
+.child-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.child-left h1{
+    font-family: 'Phudu', cursive;
+    font-size: 90px;
+    font-weight: 900;
+    color: aliceblue;
+    text-shadow: 3px 5px 10px beige;
+}
+.sobremi{
+    font-size: 80px;
+    color: aliceblue;
+    text-shadow: 2px 2px 30px #11e6db;
+}
+.child-left p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px white;
+}
+.contain-redes{
+    margin-top: 20px;
+}
+.contain-redes i{
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 30px;
+    padding: 20px;
+    box-shadow: 2px 2px 20px #11e6db;
+}
+
+
+/* section number 3 colocaré los Skill */
+.contain3_section{  
+    background: rgb(56,102,122);
+    background: linear-gradient(90deg, #38667a 69%, rgba(212,240,246,1) 100%);
+    width: 100%;
+}
+.contain-skill{
+    display: flex;
+    padding: 180px;
+    position: relative;
+   /*  margin-right: 80px; */
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.contain-skill .title-skill{
+    position: absolute;
+    top: 0;
+    margin-top: 90px;
+    font-family: 'Phudu', cursive;
+    font-size: 90px;
+    font-weight: 900;
+    color: aliceblue;
+    text-shadow: 3px 5px 20px rgb(54, 100, 54);
+    font-family: 'Tilt Prism', cursive;
+}
+
+.card{
+    flex: 0 0 400px;
+    height: 450px;
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+    margin:20px;
+    box-shadow: 13px 13px 25px #f5cdf5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.card h1{
+    color: black;
+    font-size: 32px;
+    font-family: 'Phudu', cursive;
+    font-weight: 700;
+}
+.card p{
+    font-size: 21px;
+    font-weight: 600;
+    text-shadow: 0 0 1px #00f73e;    
+}
+.card .css{
+    width: 120px;
+    height: 180px;
+}
+.card .javascript{
+    width: 260px;
+    height: 170px;
+}
+.card img{
+    width: 170px;
+    height: 190px;
+}
+.card a{
+    border: 3px solid rgb(106, 245, 106);
+    color: rgb(61, 15, 228);
+    padding: 15px;
+    font-size: 23px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: .5s all ease-in-out;
+}
+.card a:hover{
+    background-color: #eda9f0;
+    color: #0c130d;
+}
+/* CONTACTAME */
+.formulario{
+    display: flex;
+    justify-content: center;
+    background: rgb(56,102,122);
+    background: linear-gradient(90deg, #38667a 69%, rgba(212,240,246,1) 100%);
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario h1{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 80px;
+    text-shadow: 3px 5px 25px black;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.inputsl{
+    display: flex;
+    /* border: solid 3px rgb(255, 255, 255); */
+}
+.inputsr{
+    display: flex;
+    /* border: 3px solid yellow; */
+}
+
+.inputsl input{
+    margin: 4px;
+    background: transparent;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #d6e139;
+    padding-left: 30px;
+    border-left: 2px yellow solid;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 25px;
+}
+.inputsl input::placeholder{
+    color: white;
+    text-shadow: 1px 1px 2px white;
+}
+.inputsr input::placeholder{
+    color: white;
+    text-shadow: 1px 1px 2px white;
+}
+.inputsr input{
+    margin: 4px;
+    background: transparent;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px #d6e139;
+    padding-left: 30px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 14px;
+    border-left: 2px yellow solid;
+    text-shadow: 1px 1px 1px black;
+}
+textarea{
+    width: 450px;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    background: transparent;
+    color: white;
+    backdrop-filter: blur(2px);
+    font-size: 16px;
+    border: none;
+    border-left: 2px yellow solid;
+    box-shadow: 3px 3px 10px #d6e139;
+}
+textarea::placeholder{
+    color: white;
+    text-shadow: 1px 1px 3px;
+}
+span{
+    position: relative;
+}
+.texto1 i{
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    font-size: 20px;
+    color: white;
+}
