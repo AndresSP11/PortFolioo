@@ -64,9 +64,7 @@ header{
     background: rgb(56,102,122);
     background: linear-gradient(90deg, #38667a 69%, rgba(212,240,246,1) 100%);
 }
-.contain-div-nav ul{
-    display: flex;
-}
+
 .contain-div-nav ul li a{
     margin: 20px;
     font-size: 30px;
@@ -131,7 +129,10 @@ header{
     /* border: solid 2px black; */
     width: 50%;
     height: 100%;
-}   
+}  
+.costado{
+    display: none;
+}
 .child-rigth{
     display: flex;
     justify-content: center;

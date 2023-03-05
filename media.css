@@ -40,7 +40,52 @@
         border-radius: 20px;
     }
 }
+@media screen and (min-width:801px) {
+    .contain-div-nav ul{
+        display: flex;
+        font-size: 50px;
+        transition: 0.5s all ease-in-out;
+    }
+    
+
+}
 @media screen and (max-width:800px) {
+    /* .contain-div-nav{
+        border: solid 2px black;
+        display: flex;
+        flex-direction: column;
+    } */
+    .barritas{
+        position: absolute;
+        top: 100px;
+        left: 0;
+        border: solid 2px rgb(252, 252, 252);
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s all ease-in-out;
+        transform: translateX(-100%);
+    }
+    .contain-div-nav ul{
+        transform: translateX(0);
+    }
+    .contain-div-nav ul li {
+        background-color: black;
+        left: 0;
+        border: solid 2px black;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid white;
+    }
+    .contain-div-nav ul li a{
+        font-size: 25px;
+    }
+    .menu-bar{
+        display: flex;
+    }
+    .menu-bar i{
+        font-size: 40px;
+        color: white;
+    }
     .child-left h1{
         font-family: 'Phudu', cursive;
         font-size: 70px;
